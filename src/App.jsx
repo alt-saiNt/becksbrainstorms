@@ -50,6 +50,11 @@ function App() {
           <h2 style={{ marginTop: 0, color: '#c0c0c0', fontSize: '1.2rem' }}>System Diagnostics</h2>
           <ul style={{ listStyleType: 'none', padding: 0, margin: 0, lineHeight: '1.8' }}>
             <li>
+              <Link to="/StoryTime" style={{ color: '#e0e0e0', textDecoration: 'none' }}>
+                <span style={{ color: '#50c878' }}>[ OK ]</span> ArcanePunk Lore
+              </Link>
+            </li>
+            <li>
               <Link to="/" style={{ color: '#e0e0e0', textDecoration: 'none' }}>
                 <span style={{ color: '#50c878' }}>[ OK ]</span> Mainframe Connection
               </Link>
