@@ -34,7 +34,7 @@ function App() {
           borderBottom: '1px solid #333',
           paddingBottom: '20px'
         }}>
-          Alchemical Ponderings on the Art of Arcane Engineering
+          Arcane Ponderings on the Alchemical Art of Etheric Engineering
         </p>
 
         <div style={{ 
