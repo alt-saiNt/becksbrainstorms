@@ -90,7 +90,7 @@ const StoryTime = () => {
 
       <img 
 
-        src="/1782061364877.png" 
+        src="/background.png" 
 
         alt="Apis Scout Drone Internal Mechanics Schematic" 
 
