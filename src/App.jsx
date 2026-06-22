@@ -4,6 +4,7 @@ import Portal from './Portal';
 import StoryTime from './StoryTime';
 import Datastream from './Datastream';
 import Interface from './Interface';
+import MainFrame from './MainFrame'; 
 import './App.css';
 
 function App() {
@@ -57,7 +58,9 @@ function App() {
                 <span style={{ color: '#50c878' }}>[ OK ]</span> ArcanePunk Lore
               </Link>
             </li>
-            <li>
+            <li><Link to="/MainFrame" style={{ color: '#e0e0e0', textDecoration: 'none' }}>
+                <span style={{ color: '#50c878' }}>[ OK ]</span> Arcane Creations
+              </Link>
               <Link to="/" style={{ color: '#e0e0e0', textDecoration: 'none' }}>
                 <span style={{ color: '#50c878' }}>[ OK ]</span> Mainframe Connection
               </Link>
