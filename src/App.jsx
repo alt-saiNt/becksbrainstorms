@@ -1,6 +1,9 @@
 import { Routes, Route, Link } from 'react-router-dom';
 import Vitae from './Vitae';
 import Portal from './Portal';
+import StoryTime from './StoryTime';
+import Datastream from './Datastream';
+import Interface from './Interface';
 import './App.css';
 
 function App() {
@@ -80,10 +83,12 @@ function App() {
         {/* --- DISPLAY SCREEN --- */}
         <div style={{ marginTop: '40px', padding: '20px', borderTop: '1px dashed #333', width: '100%', textAlign: 'left' }}>
           <Routes>
-            <Route path="/" element={<p style={{ color: '#777', fontStyle: 'italic' }}>// Mainframe active. Awaiting operator input...</p>} />
+            <Route path="/mainframe" element={<p style={{ color: '#777', fontStyle: 'italic' }}>// Mainframe active. Awaiting operator input...</p>} />
             <Route path="/interface" element={<Portal />} /> 
             <Route path="/datastream" element={<p style={{ color: '#777', fontStyle: 'italic' }}>// Alchemical datastream compiling...</p>} />
             <Route path="/vitae" element={<Vitae />} />
+            <Route path="/storytime" element={<StoryTime />} />
+
           </Routes>
         </div>
 
