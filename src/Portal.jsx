@@ -1,8 +1,8 @@
-export default function Vitae() {
+export default function Portal() {
   return (
     <div className="workshop-page">
-      <h2>Portal</h2>
-      <p>Please Prepare you Credentials.... Loading....</p>
+      <h2>Present Your Credentials</h2>
+      <p>If your name is not written, you shall perish in the void.</p>
     </div>
   );
 }
